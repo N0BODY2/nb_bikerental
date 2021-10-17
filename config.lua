@@ -9,12 +9,21 @@ Config.BlipDisplay = 4
 Config.BlipScale = 0.65
 Config.BlipColour = 2
 Config.BlipName = "Bike Rental"
-
+-- Points for bikes
 Config.KolaPointy = {
     vector3(401.8681640625 , 282.47201538086 , 103.01927185059),
     vector3(1164.1743164063 , -667.25158691406 , 60.479835510254)
 }
 -- Putting price as 0 will automatically make it free
+-- If you want another Bike just do the same
+-- Example
+--[[ 
+    ThirdBike = {
+    name = 'Sanchez ',
+    price = 0,
+    spawncode = 'Sanchez'
+    } 
+]]
 Config.Kolamore = {
     FirstBike = {
         name = 'BMX ',
